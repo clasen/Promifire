@@ -2,7 +2,9 @@
 
 The ultimate module to manage your promises 💪
 
+
 With Promifire, you can manage your promises with ease 🙌
+
 You can execute your promises in sequence 🔥 or in parallel 💥
  
  ## 📦 Installation
@@ -41,7 +43,7 @@ pf.sequence((x, i) => {
 - 💥 Executes the promises in parallel.
 - 💪 Adds promises to the Promifire.
 
-## Why Flow 🤔
+## 🤔 Why Flow 
 - 🕰️ Saves you time.
 - 🧹 Keeps your code clean and organized.
 - 🧠 Easy to use and understand.
@@ -51,6 +53,7 @@ We welcome contributions to Promifire. If you have an idea or a bug to report, p
 
 ## 🎬 Conclusion
 Promifire is the ultimate solution to manage your promises.
+
 🔮 Try it out and see the magic.
 ## 📄 License
 The MIT License (MIT)
