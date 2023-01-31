@@ -10,7 +10,7 @@
 npm install promifire
 ```
 
-## Usage 🔧
+## 🔧 Usage
 ```js
 const pf = new Promifire();
 pf.add(new Promise((resolve, reject) => { setTimeout(() => { resolve(1) }, 1500) }), 2);
@@ -36,23 +36,22 @@ pf.sequence((x, i) => {
 ```
 
 ## 🎉 Features
-- Passes the response and data to the callback function 🎉.
-
-- 🔥 Executes the promises in sequence
-- 💥 Executes the promises in parallel
-- 💪 Adds promises to the Promifire
+🎉 Passes the response and data to the callback function.
+🔥 Executes the promises in sequence.
+💥 Executes the promises in parallel.
+💪 Adds promises to the Promifire.
 
 ## Why Flow 🤔
-- 🕰️ Saves you time
-- 🧹 Keeps your code clean and organized
-- 🧠 Easy to use and understand
+🕰️ Saves you time.
+🧹 Keeps your code clean and organized.
+🧠 Easy to use and understand.
 
-## Contributing 🤝
+## 🤝 Contributing
 We welcome contributions to Promifire. If you have an idea or a bug to report, please open an issue. If you would like to contribute to the code, please open a pull request.
 
-## Conclusion 🎬
+## 🎬 Conclusion
 Promifire is the ultimate solution to manage your promises.
-🔮 Try it out and see the magic
+🔮 Try it out and see the magic.
 ## License 📄
 The MIT License (MIT)
 
