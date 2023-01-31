@@ -4,12 +4,10 @@ With Promifire, you can manage your promises with ease 🙌
 
 You can execute your promises in sequence 🔥 or in parallel 💥
  
- 
  ## 📦 Installation
 ```shell
 npm install promifire
 ```
-
 
 ## 🔧 Usage
 ```js
@@ -22,8 +20,8 @@ pf.add(new Promise((resolve, reject) => { setTimeout(() => { resolve(3) }, 1000)
 ```js
 pf.parallel((x, i) => {
     console.log(x, i); // 3 4, 1 2
-}).then(x => {
-    console.log(x); // [[1, 2], [3, 4]]
+}).then(y => {
+    console.log(y); // [[1, 2], [3, 4]]
 });
 ```
 
@@ -31,11 +29,10 @@ pf.parallel((x, i) => {
 ```js
 pf.sequence((x, i) => {
     console.log(x, i); // 1 2, 3 4
-}).then(x => {
-    console.log(x); // [[1, 2], [3, 4]]
+}).then(y => {
+    console.log(y); // [[1, 2], [3, 4]]
 })
 ```
-
 
 ## 🎉 Features
 - 🎉 Passes the response and data to the callback function.
@@ -43,23 +40,18 @@ pf.sequence((x, i) => {
 - 💥 Executes the promises in parallel.
 - 💪 Adds promises to the Promifire.
 
-
 ## 🤔 Why Flow 
 - 🕰️ Saves you time.
 - 🧹 Keeps your code clean and organized.
 - 🧠 Easy to use and understand.
 
-
 ## 🤝 Contributing
 We welcome contributions to Promifire. If you have an idea or a bug to report, please open an issue. If you would like to contribute to the code, please open a pull request.
-
 
 ## 🎬 Conclusion
 Promifire is the ultimate solution to manage your promises.
 
 🔮 Try it out and see the magic.
-
-
 ## 📄 License
 The MIT License (MIT)
 
