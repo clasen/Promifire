@@ -11,6 +11,8 @@ npm install promifire
 
 ## 🔧 Usage
 ```js
+const Promifire = require("promifire")
+
 const pf = new Promifire();
 pf.add(new Promise((resolve, reject) => { setTimeout(() => { resolve(1) }, 1500) }), 2);
 pf.add(new Promise((resolve, reject) => { setTimeout(() => { resolve(3) }, 1000) }), 4);
@@ -34,7 +36,8 @@ pf.sequence((x, i) => {
 })
 ```
 
-## 🎉 Features
+## 🤯 Features
+- 🗜️ Passes the response and data to the callback function.
 - 🎉 Passes the response and data to the callback function.
 - 🔥 Executes the promises in sequence.
 - 💥 Executes the promises in parallel.
