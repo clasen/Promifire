@@ -1,0 +1,34 @@
+{
+  "name": "promifire",
+  "version": "0.9.1",
+  "description": "With Promifire, you can manage your promises with ease 🙌",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clasen/Promifire.git"
+  },
+  "keywords": [
+    "promise",
+    "flow",
+    "sequence",
+    "parallel",
+    "management",
+    "execution",
+    "callback",
+    "clean",
+    "code",
+    "easy",
+    "to",
+    "use",
+    "time-saving"
+  ],
+  "author": "Martin Clasen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clasen/Promifire/issues"
+  },
+  "homepage": "https://github.com/clasen/Promifire#readme"
+}
