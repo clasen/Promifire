@@ -52,7 +52,7 @@ We welcome contributions to Promifire. If you have an idea or a bug to report, p
 ## 🎬 Conclusion
 Promifire is the ultimate solution to manage your promises.
 🔮 Try it out and see the magic.
-## License 📄
+## 📄 License
 The MIT License (MIT)
 
 Copyright (c) Martin Clasen
