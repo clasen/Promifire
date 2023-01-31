@@ -1,8 +1,5 @@
 # 👩‍🚒 Promifire
 
-The ultimate module to manage your promises 💪
-
-
 With Promifire, you can manage your promises with ease 🙌
 
 You can execute your promises in sequence 🔥 or in parallel 💥
