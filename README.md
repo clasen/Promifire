@@ -37,11 +37,10 @@ pf.sequence((x, i) => {
 ```
 
 ## 🤯 Features
-- 🗜️ Passes the response and data to the callback function.
+- 🗜️ The smallest promise managers available in the market with less than 4kB
 - 🎉 Passes the response and data to the callback function.
 - 🔥 Executes the promises in sequence.
 - 💥 Executes the promises in parallel.
-- 💪 Adds promises to the Promifire.
 
 ## 🤔 Why Flow 
 - 🕰️ Saves you time.
