@@ -14,8 +14,8 @@ npm install promifire
 const Promifire = require("promifire")
 
 const pf = new Promifire();
-pf.add(new Promise((resolve, reject) => { setTimeout(() => { resolve(1) }, 1500) }), 2);
-pf.add(new Promise((resolve, reject) => { setTimeout(() => { resolve(3) }, 1000) }), 4);
+pf.add(new Promise(ok => { setTimeout(() => { ok(1) }, 1500) }), 2);
+pf.add(new Promise(ok => { setTimeout(() => { ok(3) }, 1000) }), 4);
 ```
 
 ### 💥 Parallel
