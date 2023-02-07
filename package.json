@@ -1,6 +1,6 @@
 {
   "name": "promifire",
-  "version": "0.9.5",
+  "version": "0.9.8",
   "description": "With Promifire, you can manage your promises with ease 🙌",
   "main": "index.js",
   "scripts": {

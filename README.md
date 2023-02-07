@@ -14,25 +14,27 @@ npm install promifire
 const Promifire = require("promifire")
 
 const pf = new Promifire();
-pf.add(new Promise(ok => { setTimeout(() => { ok(1) }, 1500) }), 2);
-pf.add(new Promise(ok => { setTimeout(() => { ok(3) }, 1000) }), 4);
+const pLong = new Promise(ok => { setTimeout(() => { ok(1) }, 1500) });
+const pShort = new Promise(ok => { setTimeout(() => { ok(3) }, 1000) });
+pf.add(pLong, { id: "long" });
+pf.add(pShort, { id: "short" });
 ```
 
 ### 💥 Parallel
 ```js
 pf.parallel((x, i) => {
-    console.log(x, i); // 3 4, 1 2
+    console.log(x, i); // 3 { id: "short" }, 1 { id: "long" }
 }).then(y => {
-    console.log(y); // [[1, 2], [3, 4]]
+    console.log(y); // [[1, { id: "long" }], [3, { id: "short" }]]
 });
 ```
 
 ### 🔥 Sequence
 ```js
 pf.sequence((x, i) => {
-    console.log(x, i); // 1 2, 3 4
+    console.log(x, i); // 1 { id: "long" }, 3 { id: "short" }
 }).then(y => {
-    console.log(y); // [[1, 2], [3, 4]]
+    console.log(y); // [[1, { id: "long" }], [3, { id: "short" }]]
 })
 ```
 
